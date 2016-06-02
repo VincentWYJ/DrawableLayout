@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<color name="transparent_color">#00000000</color>
+	
+	<color name="statusbar_bg_color">#ff000000</color>
+	
+	<color name="actionbar_bg_color">#ffffffff</color>
+	
+	<color name="seekbar_bg_color">#ffE0E0E0</color>
+	<color name="seekbar_process_color">#ffff0000</color>
+	<color name="seekbar_secondprocess_color">#ffff2222</color>
+	
+	<color name="tablayout_bg_color">#ffE0E0E0</color>
+	
+	<color name="list_item_selected_color">#ffffeeee</color>
+	
+	<color name="class_item_pressed_color">#ffffaaaa</color>
+	
+	<color name="red_color">#ffff0000</color>
+	<color name="white_color">#ffffffff</color>
+	<color name="black_color">#ff000000</color>
+	<color name="subblack_color">#ff666666</color>
+	
+	<color name="colorPrimaryDark">#5BBD72</color>
+    <color name="colorPrimary">#5BBD72</color>
+    <color name="statusBarColor">#4caf50</color>
+    <color name="tabsColor">#7dc98f</color>
+    <color name="textColor">#ffffff</color>
+
+    <color name="selected_bg">#ffafffe5</color>
+    <color name="navigation_text">#8A000000</color>
+    <color name="navigation_select_text">#9A000000</color>
+    
+    <color name="global_bg_color">#ffffffff</color>
+	<color name="button_normal_color">#ffE0E0E0</color>
+	<color name="list_item_bg_press_color">#ffaa77</color>
+	<color name="list_item_bg_normal_color">#ffffeeee</color>
+	
+	<color name="statusbar_color">#ffaa77</color>
+	<color name="actionbar_color">#ffE0E0E0</color>
+	
+    <color name="list_bg_color">#ffffffff</color>
+    
+    <color name="button_press_color">#ffaa77</color>
+    <color name="cursor_color">#ff000000</color>
+    <color name="progress_color">#ffaa77</color>
+    
+    <color name="text_color">#000000</color>
+
+</resources>

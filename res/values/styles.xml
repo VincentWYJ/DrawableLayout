@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme1" parent="@style/Theme.AppCompat.Light" />
+    
+    <style name="MyTabLayoutTextAppearance" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+        <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+        <item name="toolbarStyle">@style/toolbar_style</item>
+        <!--返回键样式-->
+        <item name="drawerArrowStyle">@style/AppTheme.DrawerArrowToggle</item>
+    </style>
+
+    <style name="toolbar_style" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+    <style name="toolbar_popup_theme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColor">@color/navigation_text</item>
+    </style>
+
+    <style name="AppTheme.DrawerArrowToggle" parent="Base.Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@android:color/white</item>
+    </style>
+
+    <style name="app_translucent" parent="AppTheme">
+        <item name="toolbarStyle">@style/toolbar_style</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    
+        <style name="ActionBarStyle" parent="@android:style/Widget.Holo.ActionBar">  
+     	<item name="android:titleTextStyle">@style/ActionBarTextColor</item>
+     	<item name="android:background">@color/actionbar_color</item>
+	</style>
+    
+    <style name="ActionBarTextColor" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+    	<item name="android:textColor">@color/text_color</item>
+	</style>
+
+</resources>
